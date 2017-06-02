@@ -105,7 +105,7 @@ font-family: 'Pacifico', cursive;
 ***/
 
 html, body {
-  font-family: 'BenchNine', sans-serif;
+  
   height: 100%;
   margin: 0;
   width: 100%;
@@ -113,11 +113,8 @@ html, body {
 
 body {
   align-items: center;
-  display: flex;
+  font-family: 'BenchNine', sans-serif;
   justify-content: center;
-}
-
-body {
   display: -ms-flexbox; /* IE 10*/  
   display: flex;
  
@@ -128,13 +125,22 @@ body {
   align-items: center;
 }
 
+
 header {
-	background color: #440e62;
+	background-color: #440e62;
 }
 
 h1 {
 	font-family: 'BenchNine', sans-serif;
 	font-size: 20px;
+	text-align: center;
+}
+
+h2 {
+	color: #FFFFFF;
+	font-family: 'BenchNine', sans-serif;
+	text-align: center;
+	font-size: 0.5em;
 }
 
 ul {
@@ -169,6 +175,11 @@ span {
 	color: #FFFFFF;
 }
 
+p {
+	color: white;
+	font-family: 'BenchNine', sans-serif;
+	text-align: center;
+}
 .box-home {
 	padding-top: 20px;
 	padding-bottom: 50px;
@@ -176,6 +187,8 @@ span {
 
 .box-about {
 	background-color: #B3AF53;
+	color: white;
+	font-family: 'pacifico';
 	padding-bottom: 50px;
 	padding-top: 50px;
 	
@@ -354,4 +367,3 @@ span {
     h3 {
         page-break-after: avoid;
     }
-
