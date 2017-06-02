@@ -95,22 +95,97 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*** COLOR INFO
+Purple - #440e62 
+Gina blue #12133f 
+Green #b3af53 
 
+font-family: 'BenchNine', sans-serif;
+font-family: 'Pacifico', cursive;
+***/
 
+html, body {
+  font-family: 'BenchNine', sans-serif;
+  height: 100%;
+  margin: 0;
+  width: 100%;
+}
 
+body {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
 
+body {
+  display: -ms-flexbox; /* IE 10*/  
+  display: flex;
+ 
+  -ms-flex-pack: center; /* IE 10*/
+  justify-content: center;
+ 
+  -ms-flex-align: center; /* IE 10*/
+  align-items: center;
+}
 
+header {
+	background color: #440e62;
+}
 
+h1 {
+	font-family: 'BenchNine', sans-serif;
+	font-size: 20px;
+}
 
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
 
+li {
+	display: inline;
+	margin-right: 20px;
+}
 
+a {
+	text-decoration: none;
+}
 
+span {
+	font-family: 'Pacifico', cursive;
+	font-weight: 100;
+}
 
+#about {
+	flex-wrap: nowrap;
+	float: none;
+}
 
+#home {
+	background-color: #000000;
+	flex-wrap: nowrap;
+	font-family: benchnine;
+	color: #FFFFFF;
+}
 
+.box-home {
+	padding-top: 20px;
+	padding-bottom: 50px;
+}
 
+.box-about {
+	background-color: #B3AF53;
+	padding-bottom: 50px;
+	padding-top: 50px;
+	
+}
 
-
+.box-contact {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	background-color: #12133f; 
+}
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -279,4 +354,4 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
-}
+
