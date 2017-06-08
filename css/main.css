@@ -108,6 +108,7 @@ html, body {
   
   height: 100%;
   margin: 0;
+  position: absolute
   width: 100%;
 }
 
@@ -160,7 +161,7 @@ a {
 
 span {
 	font-family: 'Pacifico', cursive;
-	font-weight: 100;
+	font-weight: lighter;
 }
 
 #about {
@@ -178,6 +179,7 @@ span {
 p {
 	color: white;
 	font-family: 'BenchNine', sans-serif;
+	font-size: 16px;
 	text-align: center;
 }
 .box-home {
@@ -191,13 +193,18 @@ p {
 	font-family: 'pacifico';
 	padding-bottom: 50px;
 	padding-top: 50px;
-	
+	font-weight: lighter;
 }
 
 .box-contact {
 	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-bottom: 50px;
 	background-color: #12133f; 
+}
+
+i {
+	color: #b3af53; 
+	font-size: 30px;
 }
 /* ==========================================================================
    Helper classes
@@ -367,3 +374,5 @@ p {
     h3 {
         page-break-after: avoid;
     }
+.sm-icons {
+}
